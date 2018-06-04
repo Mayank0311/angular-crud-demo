@@ -9,8 +9,8 @@ You must have node and npm installed (via brew install node or NodeJS.org);
 
 Getting Started
 
-git clone https://github.com/Mayank0311/angular-crud-demo.git
-cd angular-crud-demo
-npm i
-ng serve
-Then navigate your browser to http://localhost:4200 and use the app.
+1) git clone https://github.com/Mayank0311/angular-crud-demo.git
+2) cd angular-crud-demo
+3) npm i
+4) ng serve
+5) Then navigate your browser to http://localhost:4200 and use the app.
