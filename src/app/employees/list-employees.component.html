@@ -1,0 +1,20 @@
+<div class="form-group">
+  <input class="form-control" type="text" placeholder="search by name" [(ngModel)]="searchTerm" style="width: 300px" name="searchTerm">
+</div>
+<!-- <div>
+  <input class="btn btn-primary" type="button" value="Change Employee Name" (click)="changeName()">
+</div> -->
+<br>
+<div *ngFor="let employee of filteredEmployees" (mousemove)="onMouseMove()">
+  <div (click)="onClick(employee.id)" class="pointerClass">
+    <app-display-employee [employee]="employee"></app-display-employee>
+  </div>
+</div>
+
+<!-- <button (click)="nextEmployee() " class="btn btn-primary ">
+  Show Next Employee
+</button>
+<br><br>
+<app-display-employee [employee]="employeeToDisplay " [employeeId]="employeeToDisplay.id "
+(notify)=">
+  </app-display-employee> -->
